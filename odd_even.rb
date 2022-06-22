@@ -10,6 +10,8 @@ class Test
 		
 	end
 end
+
+
 puts" give a number to check"
 number=gets.to_i
 obj=Test.new
