@@ -19,3 +19,18 @@ print array
 #using push
 array1.push(13)
 p array1
+
+puts"printing element at index 2"
+print array1.at(2)
+
+puts"printing elements between two elements inclusive"
+print array1[1..3]
+
+
+puts "printing elements between two elements exclusive of 2nd index"
+print array[1...3]
+
+array2=Array.new
+array2.push(1,2,3,4,5,6,7,8,9,10)
+puts"Start index and the length of the range"
+print array2[1,4]
