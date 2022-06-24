@@ -34,3 +34,6 @@ array2=Array.new
 array2.push(1,2,3,4,5,6,7,8,9,10)
 puts"Start index and the length of the range"
 print array2[1,4]
+
+print array2.at(-2)
+puts array2.first
