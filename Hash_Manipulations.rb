@@ -5,7 +5,7 @@ class Test
         puts "using store function"
         h.store(53121,100)
         print h
-        print h.select{|key,value| key.is_a?Integer}
+        print h.keep_if{|key,value| key.is_a?Integer}
         print h.delete_if{|key,value| key%2==0 }
     end
 end
