@@ -1,4 +1,7 @@
 class Test
+#This code method skip_animals that takes an animals array
+# and a skip integer and returns an array of all elements 
+#except first skip number of items 
     '
     def skip_animals(array,skip)
         array.each_with_index{|item,index|  
