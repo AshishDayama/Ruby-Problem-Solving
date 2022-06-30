@@ -1,7 +1,7 @@
 class Test
     def full_name(first,*rest)
         val=rest.reduce(first){|f,r| f+" "+r}
-        return val
+        return val.inspect
     end
 end
 puts "Enter first name"
