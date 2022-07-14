@@ -1,5 +1,5 @@
 # Write a lambda which takes an integer and square it
-square      = ->(n){n**n}
+square      = ->(n){n**2}
 
 # Write a lambda which takes an integer and increment it by 1
 plus_one    = ->(n){n+1} 
