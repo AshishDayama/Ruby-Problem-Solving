@@ -9,10 +9,11 @@ class Test
         else
             return temperature
         end
+    
     end
 end 
 print "Enter temperature in celcius  "
-temperature=gets.to_f
+temperature=gets.to_f 
 obj=Test.new
 val=obj.convert_temp(temperature,'kelvin')
 puts val
